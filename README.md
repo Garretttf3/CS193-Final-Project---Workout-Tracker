@@ -34,12 +34,11 @@ git clone https://github.com/Garretttf3/CS193-Final-Project---Workout-Tracker.gi
 cd CS193-Final-Project---Workout-Tracker
 ```
 
-
 ## Usage
 
 The command-line interface is planned to guide the user through a menu like this:
 
-
+```text
 Workout Tracker
 1. Log workout
 2. View workout history
@@ -52,7 +51,7 @@ Repetitions: 8
 Weight: 135
 Date: 2026-11-01
 Workout saved.
-
+```
 
 Actual run commands and verified output will be added when the MVP is implemented.
 
@@ -64,6 +63,20 @@ The following version 2.0 features come directly from the "Schedule" quadrant of
 - [ ] Display weekly workout statistics
 - [ ] Create and save workout routines
 - [ ] Set personal fitness goals
+
+See the full planning document: [Eisenhower Matrix.pdf](docs/Eisenhower%20Matrix.pdf)
+
+## Repository Structure
+
+```text
+.
+├── README.md
+├── src/
+├── tests/
+└── docs/
+    ├── Eisenhower Matrix.pdf
+    └── System Diagram.drawio
+```
 
 ## Author
 
